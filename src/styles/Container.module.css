@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 1; 
+    border-right: 1px solid gray; /* This will create a border on the right side of the sidebar */
+}
+  
+  .feed {
+    flex: 2; 
+    border-left: 1px solid gray;  /* This will create a border on the left side of the feed */
+    border-right: 1px solid gray;  /* This will create a border on the right side of the feed */
+  }
+  

@@ -1,0 +1,29 @@
+.feedContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; /* adjust this as needed */
+  }
+  
+  .feedHeader {
+    display: flex;
+    align-items: center; /* align vertically */
+    justify-content: space-between; /* spread out the items */
+    border-bottom: 1px solid gray; /* add bottom border */
+    padding-bottom: 5px; /* add space below the text and icon */
+  }
+
+  .home {
+    font-weight: bold; /* make the text bold */
+    transition: color 0.3s ease; /* animate the color change */
+  }
+  
+  .home:hover {
+    color: blue; /* change color on hover */
+  }
+  
+  .sparklesIcon {
+    width: 15px;
+    height: 15px;
+    margin-left: 50px; /* add a space to the left */
+  }
