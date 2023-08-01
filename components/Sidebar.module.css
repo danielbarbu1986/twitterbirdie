@@ -1,0 +1,57 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px; /* adjust the width as needed */
+  height: 100vh; /* make it full height */
+  overflow: auto; /* add scroll if content exceeds the height */
+}
+
+.hoverEffect {
+    transition: transform 0.3s;
+  }
+  
+  .hoverEffect:hover {
+    transform: scale(1.01);
+    color: blue;
+  }
+
+  /* styles.css */
+.twitterbutton {
+  background-color: #1DA1F2;
+  color: white;
+  border-radius: 50px;
+  width: 90px;
+  height: 50px;
+  font-weight: bold;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.twitterbutton:hover {
+  filter: brightness(95%);
+}
+
+.profilephoto {
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  position: relative;
+  overflow: hidden;
+}
+
+.profilephoto img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  width: auto;
+  transform: translate(-50%, -50%);
+}
+
+.profilephoto:hover {
+  transform: scale(1.01);
+}
